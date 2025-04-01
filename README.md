@@ -1,5 +1,5 @@
 # Asrock DeskMini X300 5600G
- Asrock DeskMini X300 with Ryzen 5 5600G running MacOS Sonoma 14.1.1
+ Asrock DeskMini X300 with Ryzen 5 5600G running MacOS Sonoma 15.3.2
 
 ![Alt text](/etc/SS2023-11-12.png?raw=true "Screen Shot")
 
@@ -15,5 +15,5 @@
 
 ### What not working/barely working
 - iGPU with NootedRed.kext just for light task or crash on load.
-- Wifi with Airportitlwm.kext not so stable but very stable with itlww.kext
+- Wifi with Airportitlwm.kext not so stable but very stable with itlwm.kext. From MacOS 15, Airportitlwm.kext isnt working anymore, so I switch to itlwm.kext and Heliport app to get wifi.
 - My CPU has broken pin on HD Audio bus so im not able to test Speaker and Microphone. Sound through HDMI working.
